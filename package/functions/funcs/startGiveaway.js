@@ -16,7 +16,7 @@ module.exports = d => {
     channel = d.message.channel.id
     ] = inside.splits
     
-    const ch = d.client.channels.cache.get(channel);
+    const ch = d.client.channels.cache.get(channel)
     
     if (!ch)
     return d.error(
@@ -30,7 +30,7 @@ module.exports = d => {
             hostedBy: d.message.author,
                  lastChance: {
         enabled: true,
-        content: '⚠️ **LAST CHANCE TO ENTER !** ⚠️',
+        content: '⚠️ **¡ LAST CHANCE TO ENTER !** ⚠️',
         threshold: 1000,
         embedColor: '#FF0000'
     }, 
