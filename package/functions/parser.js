@@ -872,7 +872,7 @@ $spliceTextJoin[$userRoles;,  ; | ;\n;3]
   $reverse: "Converts the given characters into reverse order;$reverse[text or characters]",
   $voiceMembersCount: "Returns all members count inside all voice channels;$voiceMembersCount or $voiceMembersCount[guildID (optional)]",
   $packageName: "Returns the current package name.;$packageName",
-  $startGiveaway: "Starts a giveaway which will update every 30 seconds;$startGiveaway[time;winners;prize;channel (Optional)]",
+  $startGiveaway: "Starts a giveaway;$startGiveaway[time;winners;prize;channel (Optional)]",
   $rerollGiveaway: "Rerolls a giveaway;$rerollGiveaway[id]",
   $endGiveaway: "Ends a giveaway;$deleteGiveaway[id]",
   $deleteGiveaway: "Deletes a giveaway;$deleteGiveaway[id]",
@@ -881,7 +881,7 @@ $spliceTextJoin[$userRoles;,  ; | ;\n;3]
   $hasAttachment: "Check if the given message id has an attachment;$hasAttachment[messageID] or $hasAttachment[channelID;messageID]",
   $hasEmbed: "Check if the given message id has an embed;$hasEmbed[messageID] or $hasEmbed[channelID;messageID]",
   $together: "Play a game together;$together[youtube/chess/betrayal/poker]",
-  $findLinks: "Find links in some content and separate it;$findLinks[content;separator(Optional)]",
+  $findLinks: "Find links in a content content and separate it;$findLinks[content;separator(Optional)]",
   $lastMessageID: "Get the last channel message id;$lastMessageID or $lastMessageID[channelID]"
 };
 module.exports = Parser;
