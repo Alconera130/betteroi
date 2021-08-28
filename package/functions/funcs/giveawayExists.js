@@ -5,7 +5,7 @@ module.exports = d => {
     
     if (err) return d.error(err)
     
-    // credits to Mid
+     // credits to Mid
     
     const gw = d.message.client.giveawaysManager.giveaways.find((u) => u.messageID === inside.inside);
         
