@@ -872,7 +872,7 @@ $spliceTextJoin[$userRoles;,  ; | ;\n;3]
   $reverse: "Converts the given characters into reverse order;$reverse[text or characters]",
   $voiceMembersCount: "Returns all members count inside all voice channels;$voiceMembersCount or $voiceMembersCount[guildID (optional)]",
   $packageName: "Returns the current package name.;$packageName",
-  $startGiveaway: "Starts a giveaway;$startGiveaway[time(MS);winners;prize;channel (Optional)]",
+  $startGiveaway: "Starts a giveaway;$startGiveaway[time(ms);winners;prize;channel (Optional)]",
   $rerollGiveaway: "Rerolls a giveaway;$rerollGiveaway[id]",
   $endGiveaway: "Ends a giveaway;$deleteGiveaway[id]",
   $deleteGiveaway: "Deletes a giveaway;$deleteGiveaway[id]",

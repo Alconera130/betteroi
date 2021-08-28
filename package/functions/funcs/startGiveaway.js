@@ -7,7 +7,7 @@ module.exports = d => {
     
     if (err) return d.error(err)
     
-    // credits to Mid
+     // credits to Mid
     
         const options = [
     ttim,

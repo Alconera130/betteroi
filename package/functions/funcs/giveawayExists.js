@@ -7,7 +7,7 @@ module.exports = d => {
     
     // credits to Mid
     
-    const gw = d.message.client.giveawaysManager.giveaways.find((g) => g.messageID === inside.inside);
+    const gw = d.message.client.giveawaysManager.giveaways.find((u) => u.messageID === inside.inside);
         
     if(!gw) {
         pass = false
