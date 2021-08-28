@@ -349,7 +349,6 @@ const { DiscordTogether } = require('discord-together');
 
 client.discordTogether = new DiscordTogether(client);
 
-
       const Database = new DBDdb.Database({
         path: options.databasePath,
         tables: [

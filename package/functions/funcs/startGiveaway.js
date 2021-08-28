@@ -31,7 +31,7 @@ module.exports = d => {
                  lastChance: {
         enabled: true,
         content: '⚠️ **¡ LAST CHANCE TO ENTER !** ⚠️',
-        threshold: 1000,
+        threshold: 10000,
         embedColor: '#FF0000'
     }, 
         messages: {
