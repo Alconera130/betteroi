@@ -7,7 +7,7 @@ module.exports = d => {
     
     if (err) return d.error(err)
     
-    // credits to Mid uwu
+    // credits to Mid
     
         const options = [
     ttim,
@@ -24,7 +24,7 @@ module.exports = d => {
     );
 
     d.client.giveawaysManager.start(ch, {
-           time: ms(parseInt(ttim)),
+           time: parseInt(ttim),
             winnerCount: parseInt(winners),
             prize: prize,
             hostedBy: d.message.author,
