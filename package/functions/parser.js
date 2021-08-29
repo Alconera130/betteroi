@@ -882,6 +882,7 @@ $spliceTextJoin[$userRoles;,  ; | ;\n;3]
   $hasEmbed: "Check if the given message id has an embed;$hasEmbed[messageID] or $hasEmbed[channelID;messageID]",
   $together: "Play a game together;$together[youtube/chess/betrayal/poker]",
   $findLinks: "Find links in a content content and separate it;$findLinks[content;separator(Optional)]",
-  $lastMessageID: "Get the last channel message id;$lastMessageID or $lastMessageID[channelID]"
+  $lastMessageID: "Get the last channel message id;$lastMessageID or $lastMessageID[channelID]",
+  $isValidTime: "Checks if the content is a valid time.;$isValidTime[content]"
 };
 module.exports = Parser;
