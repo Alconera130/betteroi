@@ -6,7 +6,7 @@ module.exports = async (d) => {
     if (error) return d.error(error)
     
     try {
-        code = code.replaceLast(`$isValidTime${inside}`, require('ms') ? true : false)
+        code = code.replaceLast(`$isValidTime${inside}`, require('ms')(inside.inside) ? true : false)
     } catch {
         return d.error(`\`$${d.func}: Invalid Usage\``)
     }
