@@ -883,6 +883,7 @@ $spliceTextJoin[$userRoles;,  ; | ;\n;3]
   $together: "Play a game together;$together[youtube/chess/betrayal/poker]",
   $findLinks: "Find links in a content content and separate it;$findLinks[content;separator(Optional)]",
   $lastMessageID: "Get the last channel message id;$lastMessageID or $lastMessageID[channelID]",
-  $isValidTime: "Checks if the content is a valid time.;$isValidTime[content]"
+  $isValidTime: "Checks if the content is a valid time.;$isValidTime[content]",
+  $findVars: "Finds variables from client, similar to $findMembers.;$findVars[name;query (default: 10 | optional);format (default: {position}.) {name} | optional)]"
 };
 module.exports = Parser;
